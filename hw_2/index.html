@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+</head>
+<body>
+<header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Form</a></li>
+			<li><a href="#">Kontaakt</a></li>
+		</ul>
+		
+	</nav>
+	<hr>
+</header>
+<main>
+	<form >
+		<div>
+			<label for="name">First Name:</label><br>
+			<input autocomplete="off" minlength="4" required id="name" autofocus type="text"
+			       placeholder="Введіть ваше ім'я">
+		</div>
+		<div>
+			<label for="last_name">Last Name:</label><br>
+			<input minlength="5" required id="last_name" type="text">
+		</div>
+		<div>
+			<label for="age">Age</label><br>
+			<input max="2" id="age" type="number">
+		</div>
+		<div>
+			<label for="email">Email</label><br>
+			<input required id="email" type="email">
+		</div>
+		<div>
+			<label for="pwd">Password</label><br>
+			<input id="pwd" type="password">
+		</div>
+		<div>
+			<label for="color">Color</label><br>
+			<input id="color" type="color">
+		</div>
+		<div>
+			<label for="resume">Resume</label><br>
+			<input id="resume" multiple type="file">
+		</div>
+		<div>
+			<label for="volume">Volume</label><br>
+			<input id="volume" type="renge">
+		</div>
+		<div>
+			<label for="search">Search</label><br>
+			<input id="search" type="search">
+		</div>
+		<div>
+			<label for="website">Website</label><br>
+			<input disabled id="website" type="url">
+		</div>
+		<div>
+			<label for="phone_number">Phone number</label><br>
+			<input placeholder="38067-777-99-55" required pattern="[0-9]{5}-[0-9]{3}[0-9]{2}[0-9]{2}" id="phone_number"
+			       type="tel">
+		</div>
+		<div>
+			<label for="birthday">Birthday</label><br>
+			<input min="2022-09-11" max="2024-09-11" required id="birthday" type="date">
+		</div>
+		<div>
+			<label for="start_date">Start date</label><br>
+			<input id="start_date" type="datetime-local">
+		</div>
+		<div>
+			<label for="fav_month">Favorit month</label><br>
+			<input id="fav_month" type="month">
+		</div>
+		<div>
+			<label for="lunch_time">Lunch time</label><br>
+			<input id="lunch_time" type=time>
+		</div>
+		<div>
+			<label for="financial_week">Financial week</label><br>
+			<input id="financial_week" type="week">
+		</div>
+		<fieldset>
+			<legend>Activities in your spare time</legend>
+				<div>
+					<input id="reading" type="checkbox">
+					<label for="reading">Reading</label>
+				</div>
+				<div>
+					<input id="films" type="checkbox">
+					<label for="films">Films</label>
+				</div>
+				<div>
+					<input id="travelling" type="checkbox" checked>
+					<label for="travelling">Travelling</label>
+				</div>
+		</fieldset>
+		<fieldset>
+			<legend>Аavourite way of travelling</legend>
+			<div>
+				<input name="transport" id="car" type="radio" checked>
+				<label for="car">Car</label>
+			</div>
+			<div>
+				<input name="transport" id="bike" type="radio">
+				<label for="bike">Bike</label>
+			</div>
+			<div>
+				<input name="transport" id="train" type="radio" checked>
+				<label for="train">Train</label>
+			</div>
+		</fieldset>
+		<br>
+		<div>
+			<label for="car">Your car</label>
+			<select name="car" id="car">
+				<option selected value="">Select your car</option>
+				<option value="mb">Mercedes-Brnz</option>
+				<option value="audi">Audi</option>
+				<option value="ford">Ford</option>
+				<option  value="volvo">Volovo</option>
+			</select>
+		</div>
+		<br><br>
+		<div>
+			<label for="about">About:</label><br>
+			<textarea  id="about" cols="25" rows="5"></textarea>
+		</div>
+		<br>
+		<div>
+			<label for="browser">Browseer</label>
+			<br>
+			<input list="browser" type="text">
+			<datalist id="browser">
+				<option value="Chrome"></option>
+				<option value="Opera"></option>
+				<option value="Firefox"></option>
+				<option value="Interne Explorer"></option>
+				<option value="Safari"></option>
+			</datalist>
+		</div>
+		<br>
+		<div>
+			<button type="submit">Sudmit</button>
+			<button type="reset">Reset</button>
+		</div>
+	</form>
+</main>
+<footer>
+<p>&#169 Ruslan&nbsp;Voloshyn </p>
+</footer>
+</body>
+</html>
