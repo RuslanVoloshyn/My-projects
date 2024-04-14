@@ -1,0 +1,56 @@
+h1 {
+	font-size: 85px;
+	background-color: #0285ed;
+	color: #fdfdfd;
+	text-align: right;
+}
+
+address {
+	font-style: normal;
+}
+
+img {
+	width: 200px;
+}
+
+h2 {
+	color: #0279c1;
+}
+
+.work {
+	color: #dea00c;
+	font-weight: bold;:;
+}
+
+ul {
+	list-style-type: square;
+}
+
+.contakt {
+	font-weight: bold;
+}
+
+.education {
+	font-style: italic;
+}
+
+.work_prof {
+	font-weight: bold;
+	color: #0f007b;
+}
+
+
+.skills {
+	background-color: #d8d8d8;
+	color: #fdfdfd;
+	display: block;
+	font-size: 18px;
+}
+
+.skills_list {
+	list-style-type: none;
+	padding-left: 0;
+}
+ .skills_list p {
+	 margin: 0 0 0 40px;
+ }
