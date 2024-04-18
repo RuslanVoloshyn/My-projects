@@ -1,0 +1,41 @@
+* {
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.conten-block {
+	width: 1200px;
+	height: 420px;
+	background-color: #EFEFEF;
+	margin: 19px auto;
+}
+
+.container {
+	width: 1180px;
+	height: 380px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.wraper {
+	font-size: 0;
+}
+
+.item {
+	width: 25%;
+	height: calc(380px / 3);
+	display: inline-block;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.item-text {
+	padding: 49px;
+	width: 293px;
+	height: 123px;
+	background-color: #ffffff;
+}
+
+code {
+	color: #ff4b33;
+}

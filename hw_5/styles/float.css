@@ -1,0 +1,58 @@
+.container-float {
+	width: 1295px;
+	height: 550px;
+	margin: 15px auto;
+	background-color: #EFEFEF;
+}
+
+.floa-ofer {
+	text-align: left;
+	margin: 0 0 45px 25px;
+	padding-top: 25px;
+}
+
+.wraper-float:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.item-float {
+	width: 25%;
+	float: left;
+}
+
+.item-float_card {
+	width: 273px;
+	height: 387px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+
+.floa-img {
+	display: inline-block;
+	padding-top: 33px;
+}
+
+.item-text_float {
+	font-size: 17px;
+	font-weight: normal;
+	padding: 15px;
+}
+
+.float-price {
+	font-weight: bold;
+	font-size: 25px;
+	padding: 18px 0 27px 0;
+}
+
+.floa-btn {
+	width: 138px;
+	height: 38px;
+	padding: 7px;
+	text-decoration: none;
+	border-radius: 15px;
+	display: inline-block;
+	color: #FFFFFF;
+	background-color: #DD586C;
+}
