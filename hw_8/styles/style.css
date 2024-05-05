@@ -148,7 +148,7 @@ body {
 	font-weight: 500;
 	font-size: var(--font-sm);
 	color: var(--secondary-color);
-	background-color: var(--bg-secondary-color);
+	background: none;
 	margin: 0 0 19px 15px;
 	cursor: pointer;
 }
